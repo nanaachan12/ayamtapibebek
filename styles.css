@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 236, 209);
+    font-family: 'Noto Sans',sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    display: inline;
+}
+
+header > nav {
+        position: sticky;
+        top: 0;
+        padding: 10px 70px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        z-index: 1;
+        background-color: rgb(236, 236, 209);
+    }
+
+    .header-logo {
+        flex-grow: 1;
+    }
+    .logo {
+        width: 20%;
+    }
+    
+    nav > .navigation-header{
+        flex-grow: 3;
+        display: inline-block;
+        text-align: right;
+        background-color: rgb(236, 236, 209);
+    }
+
+    header{
+        display: flex;
+    }
+    
